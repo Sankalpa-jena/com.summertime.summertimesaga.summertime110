@@ -19,65 +19,65 @@ package="com.summertime.summertimesaga">
     tools:targetApi="31">
 
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_textlist"
+        android:name=".summertimessaga110_textlist"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_Exit"
+        android:name=".summertimessaga110_Exit"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_Get_start_Activity"
+        android:name=".summertimessaga110_Get_start_Activity"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_Next"
+        android:name=".summertimessaga110_Next"
         android:exported="false"
         android:screenOrientation="portrait"
         />
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_startpage"
+        android:name=".summertimessaga110_startpage"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_detail6"
+        android:name=".summertimessaga110_detail6"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_detail5"
+        android:name=".summertimessaga110_detail5"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_detail4"
+        android:name=".summertimessaga110_detail4"
         android:exported="false"
         android:screenOrientation="portrait"/>
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_detail3"
+        android:name=".summertimessaga110_detail3"
         android:exported="false"
         android:screenOrientation="portrait"
         />
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_detail2"
+        android:name=".summertimessaga110_detail2"
         android:exported="false"
         android:screenOrientation="portrait"
         />
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_detail1"
+        android:name=".summertimessaga110_detail1"
         android:exported="false"
         android:screenOrientation="portrait"
         />
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_Thank_you"
+        android:name=".summertimessaga110_Thank_you"
         android:exported="false"
         android:screenOrientation="portrait"
         />
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_MainActivity2"
+        android:name=".summertimessaga110_MainActivity2"
         android:exported="false"
         android:screenOrientation="portrait"
         />
     <activity
-        android:name="com.summertime.summertimesaga.summertimessaga110_splesh"
+        android:name=".summertimessaga110_splesh"
         android:exported="true"
         android:screenOrientation="portrait">
         <intent-filter>
