@@ -63,7 +63,7 @@ public class summertimessaga110_splesh extends AppCompatActivity {
                 summertimessaga110_splesh.this.startActivity(new Intent(summertimessaga110_splesh.this, summertimessaga110_startpage.class));
 
             }
-        }, 5000);
+        }, 8000);
     }
 
 
