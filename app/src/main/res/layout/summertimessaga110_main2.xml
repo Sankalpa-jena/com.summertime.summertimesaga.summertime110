@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/summertimessaga110_ic_background"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/qreka"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/summertimessaga110_qc" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn"
+
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:backgroundTint="#fff"
+            android:text="Move To Original App"
+            android:textColor="@color/blackk"
+            android:textSize="17dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp"
+            android:visibility="gone">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:src="@drawable/summertimessaga110_s2"
+            android:text="start" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/btn1"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#fff"
+                android:text="Skip This"
+                android:textColor="@color/blackk"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp"
+                android:textSize="17dp">
+
+            </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:background="@drawable/summertimessaga110_qb3"
+        android:visibility="visible">
+
+    </FrameLayout>
+</LinearLayout>
+
+

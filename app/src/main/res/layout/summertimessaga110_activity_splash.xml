@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/summertimessaga110_bgg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/z"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:elevation="6dp"
+            app:cardCornerRadius="50dp"
+            app:strokeColor="#000"
+            app:strokeWidth="1dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:src="@drawable/summertimessaga110_logo">
+
+            </ImageView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/z"
+            android:gravity="center"
+            android:textColor="@color/blackk"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Lucrative Task-Based App for Android Devices"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/summertimessaga110_gradient_splash"
+        android:progress="100"
+        android:progressDrawable="@drawable/summertimessaga110_gradient_splash" />
+
+
+</RelativeLayout>

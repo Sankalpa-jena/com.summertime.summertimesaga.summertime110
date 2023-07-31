@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/summertimessaga110_ic_background"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/fl_adplaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/qreka"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/summertimessaga110_qc" />
+            </FrameLayout>
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewFilledStyle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/summertimessaga110_zn"/>
+
+                <LinearLayout
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/btn_color"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/btn_color"
+                        android:gravity="center"
+                        android:text="Summertime Saga Walkthrough"
+                        android:textColor="@color/Button_Text"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:rippleColor="@color/white"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:theme="@style/Theme.summersaga.Lottiea" />
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <FrameLayout
+                android:id="@+id/fl_b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:visibility="visible"/>
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewFilledStyle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/youtube_player_view_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/summertimessaga110_s1"/>
+
+                <LinearLayout
+                    android:id="@+id/img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/btn_color"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Summertime Saga Tips and Tricks"
+                        android:textColor="@color/Button_Text"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:theme="@style/Theme.summersaga.Lottiea" />
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <FrameLayout
+                android:id="@+id/fl_b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:visibility="visible"/>
+
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewFilledStyle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/youtube_player_view_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/summertimessaga110_s2"/>
+
+                <LinearLayout
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/btn_color"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/btn_color"
+                        android:gravity="center"
+                        android:text="Summertime Saga Locations"
+                        android:textColor="@color/Button_Text"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended"
+
+
+                        />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:theme="@style/Theme.summersaga.Lottiea" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <FrameLayout
+                android:id="@+id/fl_b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:visibility="visible"/>
+
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewFilledStyle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/youtube_player_view_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/summertimessaga110_hqdefault"/>
+
+                <LinearLayout
+                    android:id="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/btn_color"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/btn_color"
+                        android:gravity="center"
+                        android:text="Things to Do First"
+                        android:textColor="@color/Button_Text"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended"
+
+
+                        />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:theme="@style/Theme.summersaga.Lottiea" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <FrameLayout
+                android:id="@+id/fl_b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:visibility="visible"/>
+
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewFilledStyle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/youtube_player_view_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/summertimessaga110_s3"/>
+
+                <LinearLayout
+                    android:id="@+id/img5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/btn_color"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/btn_color"
+                        android:gravity="center"
+                        android:text="Summertime Saga Characters"
+                        android:textColor="@color/Button_Text"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended"
+
+
+                        />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:theme="@style/Theme.summersaga.Lottiea" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <FrameLayout
+                android:id="@+id/fl_b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:visibility="visible"/>
+
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewFilledStyle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+
+                <ImageView
+                    android:id="@+id/youtube_player_view_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/summertimessaga110_s4"/>
+
+                <LinearLayout
+                    android:id="@+id/img6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/btn_color"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/btn_color"
+                        android:gravity="center"
+                        android:text="How to Make Money"
+                        android:textColor="@color/Button_Text"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended"
+
+
+                        />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:theme="@style/Theme.summersaga.Lottiea" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fl_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/summertimessaga110_qb3"
+        android:gravity="bottom"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+
+</LinearLayout>
